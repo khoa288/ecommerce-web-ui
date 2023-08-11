@@ -1,0 +1,54 @@
+.divider:after,
+.divider:before {
+	content: '';
+	flex: 1;
+	height: 1px;
+	background: #eee;
+}
+
+.btn-center {
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.loader-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.145);
+}
+
+.loader {
+	font-size: 30px;
+	color: #111;
+}
+
+.active {
+	background-color: black !important;
+}
+
+input[type='checkbox']:checked {
+	background-color: black !important;
+}
+
+.dropdown-item:active {
+	background-color: #ddd;
+	color: #111;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('./font/Poppins-Regular.ttf');
+}
+
+* {
+	font-family: 'Poppins';
+}
